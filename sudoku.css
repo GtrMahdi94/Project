@@ -1,21 +1,48 @@
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      ". . . . . . . . ."
-      ". . . . . . . . ."
-      ". . . . . . . . ."
-      ". . . . . . . . ."
-      ". . . . . . . . ."
-      ". . . . . . . . ."
-      ". . . . . . . . ."
-      ". . . . . . . . ."
-      ". . . . . . . . .";
-      width: 70%;
-      height: 90px;
-      color: blue;
-  }
+body{
+  background-color:black;
+  background-image: url("./images/background2.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#title{
+  color: rgb(0, 0, 0) ;
+  text-align: center;
+}
+#score{
+  color: rgb(13, 148, 238) ;
+  text-align: center;
+}
+#mistakes{
+  color :red;
+  text-align: center;
+}
+.sudoku{
+  background-color: rgb(158, 250, 255);
+  width: 27rem;
+  height: 27rem;
+  margin-left: 37%;
+}
+.cube{
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid black;
+  justify-content: center;
+  display: flex;
+
+}
+.btn {
+  background-color: rgb(13, 148, 238);
+  border:1px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: flex;
+  font-size: 16px;
+  margin-left: 47%;
+
+
+}
+
+
 
   
